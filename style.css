@@ -1,3 +1,43 @@
-.nav{
-    float: right;
+@keyframes example {
+    0%   {background-color: rgb(255, 255, 255);}
+    25%  {background-color: rgb(100, 221, 171);}
+    50%  {background-color: rgb(30, 196, 57);}
+    100% {background-color: rgb(6, 100, 6);}
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 35px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    animation-name: example;
+    animation-duration: 50s;
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #bd7373;
+  }
+  
+  .active {
+    background-color: #ffffff;
+  }
+
+html{
+    background-color: #1bc788;
 }
