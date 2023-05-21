@@ -4,18 +4,11 @@
 
 
 @keyframes example {
-<<<<<<< HEAD
-    0%   {background-color: rgb(249, 252, 249);}
-    25%  {background-color: rgb(214, 242, 230);}
-    50%  {background-color: rgb(202, 244, 202);}
-    100% {background-color: rgb(141, 241, 141);}
-=======
     0%   {background-color: rgb(18, 116, 136);}
     25%  {background-color: rgb(25, 110, 140);}
     50%  {background-color: rgb(30, 136, 160);}
     100% {background-color: rgb(40, 145, 170);}
     
->>>>>>> b71212d69861386d6c1449d032477ab723cf2b97
   }
   
 ul {
@@ -23,8 +16,7 @@ ul {
     image.png;
     padding: 35px;
     overflow: hidden;
-<<<<<<< HEAD
-    background-color: #a74b4b;
+
 =======
     background-color: rgb(18, 116, 136);
 >>>>>>> b71212d69861386d6c1449d032477ab723cf2b97
@@ -43,7 +35,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(253, 252, 252);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
