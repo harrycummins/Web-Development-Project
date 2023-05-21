@@ -1,16 +1,16 @@
 @keyframes example {
-    0%   {background-color: rgb(255, 255, 255);}
-    25%  {background-color: rgb(100, 221, 171);}
-    50%  {background-color: rgb(30, 196, 57);}
-    100% {background-color: rgb(6, 100, 6);}
+    0%   {background-color: rgb(249, 252, 249);}
+    25%  {background-color: rgb(214, 242, 230);}
+    50%  {background-color: rgb(202, 244, 202);}
+    100% {background-color: rgb(141, 241, 141);}
   }
   
 ul {
     list-style-type: none;
-    margin: 2px;
+    image.png;
     padding: 35px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #a74b4b;
     position: fixed; 
     top: 0;
     width: 100%;
@@ -31,7 +31,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #bd7373;
+    background-color: #b01313;
   }
   
   .active {
@@ -40,4 +40,9 @@ ul {
 
 html{
     background-color: #1bc788;
+}
+.name {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 300px;
 }
