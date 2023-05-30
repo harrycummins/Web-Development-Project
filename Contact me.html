@@ -4,23 +4,65 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="index.js"></script>
-<head>
+
+    <div class="navBar">
+        <h1>Harry Cummins</h1>
+        <ul style="list-style-type:none;">
+         <li><a href="Home.html">Home</a>
+         <li><a href="Contact me.html">Contact me</a></li>
+         <li><a href="My work.html">My work</a> </li>
+         
+    </ul>
     
     </head>
 <body>
-    <h1>Contact Me Form</h1>
+    
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="USA">Usa</option>
+            <option value="canada">Canada</option>
+            <option value="Uk">UK</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      
 
-    <form onsubmit="return submitForm()">
-      <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Enter your name">
-  
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Enter your email address">
-  
-      <label for="message">Message:</label>
-      <textarea id="message" placeholder="Enter your message"></textarea>
-  
-      <input type="submit" value="Submit">
-    </body>
+      <div class="headerSM">
+        <h1>Contact me on socail media</h1>
+        <p1>This is a very quick way to contact me</p1>
+    
+            
+    
+    <div class="socailContact">
+        <div class="column">
+           <a href="UCkJFW04OdzeiE_h-9TBCYOw"target="_blank"><img src="R.png"  style="width:42px;height:42px;"></a>
+       </div>
+       <div class="column">
+           <a href="https://www.facebook.com/harry.cummins.528"target="_blank"><img src="1509135366facebook-symbol-png-logo.png"  style="width:42px;height:42px;"></a>
+       </div>
+       <div class="column">
+           <a href="https://www.instagram.com/harrycumminss/" target="_blank"><img src="instagram_PNG10.png"  style="width:42px;height:42px;"></a>
+       </div>
+       <div class="column">
+           <a href="https://github.com/harrycummins" target="_blank" ><img src="github_PNG40.png" style="width:42px;height:42px;" ></a>
+       </div>
+    </div>
+    
 
-</html>
+</body>
+      </html>
